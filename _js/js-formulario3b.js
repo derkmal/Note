@@ -76,7 +76,7 @@ function einfugenText(e) {
         //ADD newLi CLONE TO modalContent
         modalContent.appendChild(clone);    
         
-        //CLEAR TEXT AREA
+        //CLEAR TEXT AREA 
         var clearInput = document.getElementById("idTextarea");
         clearInput.value = "";
     }
