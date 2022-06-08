@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* HTML */
+html {
+	font-size: 25px;
+	background-color: #f4f4f4;
+	position: relative;
+}
+
+/* BODY */
+body {
+	width: 1100px;
+	background-color: #FFF;
+	margin: 5px auto;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	margin: 15px 0;
+	font-size: 30px;
+	font-weight: normal;
+	color: green;
+}
+
+/* FORM */
+form.meineForm {
+	text-align: center;
+}
+
+/* TEXTAREA */
+textarea.classTextarea {
+	width: 600px;
+	height: 60px;
+	font-size: 20px;
+	border: thin solid #ddd;
+	border-radius: 4px;
+}
+
+textarea.classNeueTextarea {
+	width: 300px;
+	height: 50px;
+	margin: 1px 2px;
+	border: thin solid #ddd;
+	border-radius: 4px;
+}
+
+/* BUTTON - NOTE ADDIEREN */
+#meineButtonDiv {
+	text-align: center;
+}
+
+#idButton {
+	background-color: green;
+	color: rgb(236, 231, 231);
+	padding: 10px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: bolder;
+	border: 2px solid;
+	border-color: rgb(120, 196, 126);
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#idButton:hover {
+	background-color: rgb(7, 114, 16);
+}
+
+/* ClOSE BUTTON */
+.close {
+	display: none;
+}
+
+/* newLi */
+#idUl {
+	text-align: center;
+}
+
+#idLi {
+	position: relative;
+	list-style: none;
+	font-size: 20px;
+	text-align: justify;
+	border: thin solid #ddd;
+	border-radius: 3px;
+	width: 48%;
+	height: 100px;
+	margin: 4px;
+	display: inline-block; /* only inline-block applies left and right margins */
+	overflow: hidden; /* shorturl.at/eoqEH (developer mozila) www.shorturl.at */
+}
+
+/* CLONE OF newP */
+#idClone {
+	list-style: none;
+	display: none;
+}
+
+/* DISPLAY BUTTON */
+.classDisplayButton {
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+	background-color: rgb(50, 121, 179);
+	border: thin solid #ddd;
+	border-radius: 4px;
+	font-size: 16px;
+	color: white;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.classDisplayButton:hover {
+	background-color: rgb(38, 93, 138);
+}
+
+/* MODAL BACKGROUND */
+.modal {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0,0.4);
+}
+
+/* MODAL CONTENT */
+.modal-content {
+	display: block;
+	position: absolute;
+	background-color: #fefefe;
+	top: 300px;
+	left: 220px;
+	padding: 20px;
+	border: thin solid #ddd;
+	width: 70%;
+	height: 40%;
+	margin-top: 10px;
+	border: thin solid #ddd;
+	border-radius: 4px;
+	animation-name: modal1;
+	animation-duration: 1s;
+}
+
+/* CLOSE BUTTON */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@keyframes modal1 {
+	from{opacity: 0}
+	to{opacity: 1}
+}
