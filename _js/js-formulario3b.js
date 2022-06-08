@@ -77,7 +77,8 @@ function einfugenText(e) {
         modalContent.appendChild(clone);    
         
         //CLEAR TEXT AREA
-        valueTarea = "";
+        var clearInput = document.getElementById("idTextarea");
+        clearInput.value = "";
     }
 }
 
