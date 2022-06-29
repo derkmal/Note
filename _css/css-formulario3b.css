@@ -55,6 +55,11 @@ textarea.classNeueTextarea {
 	border-radius: 4px;
 }
 
+::placeholder {
+	color: gray;
+	font-weight: lighter;
+}
+
 /* BUTTON - NOTE ADDIEREN */
 #meineButtonDiv {
 	text-align: center;
