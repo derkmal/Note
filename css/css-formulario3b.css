@@ -59,13 +59,12 @@ textarea.classNeueTextarea {
 	color: gray;
 	font-weight: lighter;
 }
-
-/* BUTTON - NOTE ADDIEREN */
-#meineButtonDiv {
+/* Button parent */
+#buttonParent {
 	text-align: center;
 }
 
-#idButton {
+#idButton, #idButtonMatch, #idButtonMatchP {
 	background-color: green;
 	color: rgb(236, 231, 231);
 	padding: 10px 10px;
@@ -79,7 +78,7 @@ textarea.classNeueTextarea {
 	cursor: pointer;
 }
 
-#idButton:hover {
+#idButton:hover, #idButtonMatch:hover, #idButtonMatchP:hover {
 	background-color: rgb(7, 114, 16);
 }
 
@@ -114,7 +113,7 @@ textarea.classNeueTextarea {
 }
 
 /* DISPLAY BUTTON */
-.classDisplayButton {
+.classDetailButton {
 	position: absolute;
 	bottom: 2px;
 	right: 2px;
@@ -127,7 +126,7 @@ textarea.classNeueTextarea {
 	cursor: pointer;
 }
 
-.classDisplayButton:hover {
+.classDetailButton:hover {
 	background-color: rgb(38, 93, 138);
 }
 

@@ -16,10 +16,20 @@
 
     <form class="meineForm">
         <textarea id="idTextarea" class="classTextarea" name="nachricht" placeholder="type here..."></textarea>
+        <div><input type="search" id="search" placeholder="search here..."><button type="button" id="idButtonSearch">Search</button></div>
     </form>
-
-    <div id="meineButtonDiv"><button id="idButton" type="button">Add Note</button></div>
-
+    
+    <div id="buttonParent">
+        <button id="idButton" type="button">Add Note</button>
+        <button id="idButtonMatch" type="button">MatchTarea</button>
+        <button id="idButtonMatchP" type="button">MatchP</button>
+    </div>   
+    <!-- <div id="buttonParent">
+        <div id="meineButtonDiv"><button id="idButton" type="button">Add Note</button></div>
+        <div id="meineButtonDiv"><button id="idButtonMatch" type="button">MatchTarea</button></div>
+        <div id="meineButtonDiv"><button id="idButtonMatchP" type="button">MatchP</button></div>
+        <div style="clear:both"></div>
+    </div>    -->
     <ul id="idUl" class="classUl"></ul>
 
     <!-- MODAL -->
